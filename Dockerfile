@@ -12,4 +12,4 @@ RUN apk update && \
     make && \
     make install && \
     cd .. && \
-    rm -rf bowtie2-2.4.3
+    rm -rf bowtie2-2.4.3 bowtie2-2.4.3-source.zip
