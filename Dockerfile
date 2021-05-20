@@ -3,7 +3,7 @@
 FROM alpine:latest
 MAINTAINER Niema Moshiri <niemamoshiri@gmail.com>
 
-# install BWA
+# install Bowtie2
 RUN apk update && \
     apk add bash g++ make perl unzip zlib-dev && \
     wget "https://github.com/BenLangmead/bowtie2/releases/download/v2.4.3/bowtie2-2.4.3-source.zip" && \
