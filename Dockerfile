@@ -1,6 +1,6 @@
 
 # Minimal Docker image for Bowtie2 v2.4.3 using Alpine base
-FROM alpine:latest
+FROM alpine:3.13.5
 MAINTAINER Niema Moshiri <niemamoshiri@gmail.com>
 
 # install Bowtie2
