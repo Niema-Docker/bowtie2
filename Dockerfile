@@ -1,7 +1,5 @@
-
 # Minimal Docker image for Bowtie2 using Alpine base
-FROM alpine:3.13.5
-MAINTAINER Niema Moshiri <niemamoshiri@gmail.com>
+FROM alpine:latest
 
 # install Bowtie2
 RUN apk update && \
