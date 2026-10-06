@@ -3,7 +3,7 @@ FROM alpine:latest
 
 # install Bowtie2
 RUN apk update && \
-    apk add bash g++ make perl python3 unzip zlib-dev && \
+    apk add --no-cache bash g++ make perl python3 unzip zlib-dev && \
     wget -qO- "https://github.com/BenLangmead/bowtie2/archive/refs/tags/v2.5.5.tar.gz" | tar -zx && \
     cd bowtie2-* && \
     make && \
